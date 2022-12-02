@@ -33,13 +33,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yarov\\Documents\\GitHub\\SEG2105_Deliverable_03\\MealerApp\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "source": "C:\\Users\\yarov\\OneDrive\\Documents\\GitHub\\SEG2105_Deliverable_04\\MealerApp\\app\\src\\main\\res\\values-land\\dimens.xml",
                     "from": {
                         "startLines": "1,2",
                         "startColumns": "4,4",
-                        "startOffsets": "16,58",
+                        "startOffsets": "17,60",
                         "endColumns": "41,42",
-                        "endOffsets": "53,96"
+                        "endOffsets": "54,98"
                     },
                     "to": {
                         "startLines": "5,24",

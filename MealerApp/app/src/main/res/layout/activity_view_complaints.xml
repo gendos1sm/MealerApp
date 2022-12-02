@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/viewmc"
+    android:background="#FFFFFF"
     tools:context=".pages.ViewComplaints">
 
 
@@ -72,17 +72,19 @@
                 android:layout_width="178dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="clickGoLeft"
-                android:text="Previous Page" />
+                android:text="Previous Page"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/go_right"
                 android:layout_width="168dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="clickGoRight"
-                android:text="Next Page" />
+                android:text="Next Page"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
 
         <Switch
@@ -118,9 +120,10 @@
             android:id="@+id/suspend_action"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
+            android:backgroundTint="#FF474B"
             android:onClick="readComplaints"
             android:text="Dismiss"
+            android:textColor="#FFFFFF"
             tools:visibility="visible" />
 
 

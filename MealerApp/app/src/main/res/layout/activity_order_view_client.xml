@@ -27,13 +27,15 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/complain"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="makeComplaint"
-                android:text="Make a Complaint" />
+                android:text="Make a Complaint"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
 
         <TextView
@@ -61,17 +63,19 @@
                 android:id="@+id/go_left"
                 android:layout_width="183dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="clickGoLeft"
-                android:text="Previous Page" />
+                android:text="Previous Page"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/go_right"
                 android:layout_width="178dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="clickGoRight"
-                android:text="Next Page" />
+                android:text="Next Page"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
 
     </LinearLayout>

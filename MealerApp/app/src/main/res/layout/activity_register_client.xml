@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pages.RegisterClient"
-    android:background = "@drawable/reg">
+    tools:context=".pages.RegisterClient">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-206dp"
+        tools:layout_editor_absoluteY="-16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="40dp" >
+            android:padding="40dp">
 
             <ImageView
                 android:layout_width="100dp"
@@ -25,14 +26,24 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/logo2" />
 
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="50px"
+                android:paddingBottom="50px"
+                android:text="Before you can start ordering meals, we need some starter information to create your profile that cooks can recognize!"
+                android:textColor="#1B1B1B" />
+
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/first_name"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="First Name"
                 android:inputType="textPersonName"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#80FFFFFF" />
+                android:textColor="#202020"
+                android:textColorHint="#202020"
+                android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/last_name"
@@ -40,8 +51,9 @@
                 android:layout_height="50dp"
                 android:hint="Last Name"
                 android:inputType="textPersonName"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#80FFFFFF" />
+                android:textColor="#FF202020"
+                android:textColorHint="#202020"
+                android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/user_name"
@@ -49,8 +61,9 @@
                 android:layout_height="50dp"
                 android:hint="Enter Email (Username)"
                 android:inputType="textEmailAddress"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#80FFFFFF" />
+                android:textColor="#FF202020"
+                android:textColorHint="#FF202020"
+                android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/enter_password"
@@ -58,8 +71,9 @@
                 android:layout_height="50dp"
                 android:hint="Enter Password"
                 android:inputType="textPassword"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#80FFFFFF" />
+                android:textColor="#FF202020"
+                android:textColorHint="#FF202020"
+                android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/confirm_password"
@@ -67,8 +81,9 @@
                 android:layout_height="50dp"
                 android:hint="Confirm Password"
                 android:inputType="textPassword"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#80FFFFFF" />
+                android:textColor="#FF202020"
+                android:textColorHint="#FF202020"
+                android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/enter_address"
@@ -76,17 +91,19 @@
                 android:layout_height="50dp"
                 android:hint="Address (house#, street, postal code)"
                 android:inputType="textPostalAddress"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#80FFFFFF" />
+                android:textColor="#FF202020"
+                android:textColorHint="#FF202020"
+                android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/enter_credit_card"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="Credit Card"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#80FFFFFF"
-                android:textColorLink="#80FFFFFF" />
+                android:textColor="#FF202020"
+                android:textColorHint="#FF202020"
+                android:textColorLink="#80FFFFFF"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/error_message"
@@ -97,9 +114,10 @@
                 android:id="@+id/btn_register_client"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="clickOnRegisterClient"
-                android:text="Register" />
+                android:text="Register"
+                android:textColor="#FFFFFF" />
 
         </LinearLayout>
     </ScrollView>

@@ -4,6 +4,10 @@
         "source": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-main-35:\\layout\\activity_make_complaint.xml"
     },
     {
+        "merged": "com.example.mealerapp-mergeDebugResources-32:/layout/activity_cook_home.xml",
+        "source": "com.example.mealerapp-main-35:/layout/activity_cook_home.xml"
+    },
+    {
         "merged": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-mergeDebugResources-32:\\layout\\activity_cook_home.xml",
         "source": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-main-35:\\layout\\activity_cook_home.xml"
     },
@@ -36,12 +40,12 @@
         "source": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-main-35:\\layout\\activity_register_cook.xml"
     },
     {
-        "merged": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-mergeDebugResources-32:\\layout\\activity_view_orders.xml",
-        "source": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-main-35:\\layout\\activity_view_orders.xml"
+        "merged": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-mergeDebugResources-32:\\layout\\activity_order_view_client.xml",
+        "source": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-main-35:\\layout\\activity_order_view_client.xml"
     },
     {
-        "merged": "com.example.mealerapp-mergeDebugResources-32:/layout/activity_order_view_client.xml",
-        "source": "com.example.mealerapp-main-35:/layout/activity_order_view_client.xml"
+        "merged": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-mergeDebugResources-32:\\layout\\activity_view_orders.xml",
+        "source": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-main-35:\\layout\\activity_view_orders.xml"
     },
     {
         "merged": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-mergeDebugResources-32:\\layout\\activity_up_load_void_cheque.xml",
@@ -58,9 +62,5 @@
     {
         "merged": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-mergeDebugResources-32:\\layout\\activity_order_meal.xml",
         "source": "C:\\Users\\yarov\\.gradle\\daemon\\7.4\\com.example.mealerapp-main-35:\\layout\\activity_order_meal.xml"
-    },
-    {
-        "merged": "com.example.mealerapp-mergeDebugResources-32:/layout/activity_make_complaint.xml",
-        "source": "com.example.mealerapp-main-35:/layout/activity_make_complaint.xml"
     }
 ]

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/viewmc"
     tools:context=".pages.AdminHome">
 
     <LinearLayout
@@ -24,9 +23,10 @@
         <TextView
             android:id="@+id/welcome_message"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="63dp"
             android:gravity="center"
             android:text="Welcome Admin!"
+            android:textColor="#272727"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -34,16 +34,18 @@
             android:id="@+id/btn_view_complaints"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
+            android:backgroundTint="#FF474B"
             android:onClick="view_complaints"
-            android:text="View Complaints" />
+            android:text="View Complaints"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/logout_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
+            android:backgroundTint="#FF474B"
             android:onClick="logout"
-            android:text="Logout" />
+            android:text="Logout"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

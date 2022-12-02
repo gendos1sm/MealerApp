@@ -49,6 +49,9 @@ public final class ActivityRegisterCookBinding implements ViewBinding {
   public final TextInputEditText lastName;
 
   @NonNull
+  public final TextView textView3;
+
+  @NonNull
   public final TextInputEditText userName;
 
   private ActivityRegisterCookBinding(@NonNull ConstraintLayout rootView,
@@ -56,7 +59,8 @@ public final class ActivityRegisterCookBinding implements ViewBinding {
       @NonNull TextInputEditText confirmPassword, @NonNull TextInputEditText enterAddress,
       @NonNull TextInputEditText enterInfo, @NonNull TextInputEditText enterPassword,
       @NonNull TextView errorMessageCook, @NonNull TextInputEditText firstName,
-      @NonNull TextInputEditText lastName, @NonNull TextInputEditText userName) {
+      @NonNull TextInputEditText lastName, @NonNull TextView textView3,
+      @NonNull TextInputEditText userName) {
     this.rootView = rootView;
     this.btnRegisterCook = btnRegisterCook;
     this.btnUploadCheque = btnUploadCheque;
@@ -67,6 +71,7 @@ public final class ActivityRegisterCookBinding implements ViewBinding {
     this.errorMessageCook = errorMessageCook;
     this.firstName = firstName;
     this.lastName = lastName;
+    this.textView3 = textView3;
     this.userName = userName;
   }
 
@@ -151,6 +156,12 @@ public final class ActivityRegisterCookBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
       id = R.id.user_name;
       TextInputEditText userName = ViewBindings.findChildViewById(rootView, id);
       if (userName == null) {
@@ -159,7 +170,7 @@ public final class ActivityRegisterCookBinding implements ViewBinding {
 
       return new ActivityRegisterCookBinding((ConstraintLayout) rootView, btnRegisterCook,
           btnUploadCheque, confirmPassword, enterAddress, enterInfo, enterPassword,
-          errorMessageCook, firstName, lastName, userName);
+          errorMessageCook, firstName, lastName, textView3, userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -32,7 +32,7 @@ public final class ActivityOrderMealBinding implements ViewBinding {
   public final Button goRight;
 
   @NonNull
-  public final ImageView imageComplaint;
+  public final ImageView imageView5;
 
   @NonNull
   public final TextView mealOne;
@@ -44,13 +44,13 @@ public final class ActivityOrderMealBinding implements ViewBinding {
   public final Button searchNow;
 
   private ActivityOrderMealBinding(@NonNull ConstraintLayout rootView, @NonNull Button Order,
-      @NonNull Button goLeft, @NonNull Button goRight, @NonNull ImageView imageComplaint,
+      @NonNull Button goLeft, @NonNull Button goRight, @NonNull ImageView imageView5,
       @NonNull TextView mealOne, @NonNull EditText searchBar, @NonNull Button searchNow) {
     this.rootView = rootView;
     this.Order = Order;
     this.goLeft = goLeft;
     this.goRight = goRight;
-    this.imageComplaint = imageComplaint;
+    this.imageView5 = imageView5;
     this.mealOne = mealOne;
     this.searchBar = searchBar;
     this.searchNow = searchNow;
@@ -101,9 +101,9 @@ public final class ActivityOrderMealBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageComplaint;
-      ImageView imageComplaint = ViewBindings.findChildViewById(rootView, id);
-      if (imageComplaint == null) {
+      id = R.id.imageView5;
+      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView5 == null) {
         break missingId;
       }
 
@@ -126,7 +126,7 @@ public final class ActivityOrderMealBinding implements ViewBinding {
       }
 
       return new ActivityOrderMealBinding((ConstraintLayout) rootView, Order, goLeft, goRight,
-          imageComplaint, mealOne, searchBar, searchNow);
+          imageView5, mealOne, searchBar, searchNow);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

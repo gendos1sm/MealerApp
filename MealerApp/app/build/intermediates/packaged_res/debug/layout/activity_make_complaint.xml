@@ -9,14 +9,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation = "vertical"
-        android:padding = "5dp">
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <ImageView
             android:id="@+id/complaintImage"
-            android:layout_width="200dp"
-            android:layout_height="150dp"
+            android:layout_width="235dp"
+            android:layout_height="240dp"
             android:layout_gravity="center_horizontal"
+            android:paddingTop="100px"
+            android:paddingBottom="200px"
             app:srcCompat="@drawable/poo" />
 
         <EditText
@@ -35,10 +39,11 @@
             android:id="@+id/makeComplaint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#FF474B"
             android:hint="Submit Complaint"
-            android:onClick = "subComplaint"
+            android:onClick="subComplaint"
             android:textColor="#FFFFFF"
-            android:backgroundTint="#8C3D5B" />
+            android:textColorHint="#FFFFFF" />
 
 
     </LinearLayout>

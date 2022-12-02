@@ -167,7 +167,6 @@ public class ViewComplaints extends AppCompatActivity {
                 }
                 int cc = currentComplaint;
 
-                if(complaintList.size() + 4 > cc + perScreen){
                     for(int i = 0; i < txtList.size(); i++){
                         try{
                             txtList.get(i).setText(cc + i + 1 + ": " + complaintList.get(cc + i).display());
@@ -175,11 +174,9 @@ public class ViewComplaints extends AppCompatActivity {
                             txtList.get(i).setText(" ");
                         }
                     }
-                }else{
-                    cc = 0;
-                }
                 complaintList.clear();
-            }
+                }
+
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
             }

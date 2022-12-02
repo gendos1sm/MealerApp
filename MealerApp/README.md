@@ -1,7 +1,7 @@
 Admin:
 
 Username: admin@meal.com
-Password: Password@123
+Password: 1
 
 Team Members:
 

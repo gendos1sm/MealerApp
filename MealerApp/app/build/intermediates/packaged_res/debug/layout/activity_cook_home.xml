@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/viewmc"
     tools:context=".pages.CookHome">
 
     <LinearLayout
@@ -27,6 +26,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Welcome Cook!"
+            android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -34,25 +34,28 @@
             android:id="@+id/ViewMealBTN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
+            android:backgroundTint="#FF474B"
             android:onClick="clickOnViewMeal"
-            android:text="View Meals" />
+            android:text="View Meals"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/ViewOrderBTN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
+            android:backgroundTint="#FF474B"
             android:onClick="clickOnOrderBTN"
-            android:text="View Orders" />
+            android:text="View Orders"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/logout_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
+            android:backgroundTint="#FF474B"
             android:onClick="logout"
-            android:text="Logout" />
+            android:text="Logout"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

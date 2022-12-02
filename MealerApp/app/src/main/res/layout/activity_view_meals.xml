@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/viewmc"
+    android:background="#FFFFFF"
     tools:context=".pages.View_Meals">
 
     <LinearLayout
@@ -42,9 +42,10 @@
                 android:id="@+id/add_meal"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="addMealsClick"
                 android:text="Add Meal"
+                android:textColor="#FFFFFF"
                 tools:visibility="visible" />
         </LinearLayout>
 
@@ -95,26 +96,29 @@
                 android:id="@+id/go_left"
                 android:layout_width="183dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="clickGoLeft"
-                android:text="Previous Page" />
+                android:text="Previous Page"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/go_right"
                 android:layout_width="178dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="clickGoRight"
-                android:text="Next Page" />
+                android:text="Next Page"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
 
         <Button
             android:id="@+id/removeMeal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
+            android:backgroundTint="#FF474B"
             android:onClick="deleteMealsClick"
-            android:text="Delete Meal" />
+            android:text="Delete Meal"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 

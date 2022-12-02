@@ -2499,6 +2499,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable food
+drawable food_search
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_clock_black_24dp
@@ -2512,6 +2513,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable login_main_asset
 drawable logo
 drawable logo2
 drawable m3_appbar_background
@@ -2558,12 +2560,14 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable poo
 drawable poop
+drawable psw_asset
 drawable reg
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable upload
+drawable username_asset
 drawable viewmc
 id ALT
 id BOTTOM_END
@@ -2838,6 +2842,10 @@ id ignoreRequest
 id image
 id imageComplaint
 id imageToUpload
+id imageView
+id imageView2
+id imageView4
+id imageView5
 id immediateStop
 id included
 id info
@@ -2864,6 +2872,7 @@ id listComplaints
 id listMode
 id list_item
 id login_error
+id login_error3
 id login_password
 id login_username
 id logout_button
@@ -3076,6 +3085,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

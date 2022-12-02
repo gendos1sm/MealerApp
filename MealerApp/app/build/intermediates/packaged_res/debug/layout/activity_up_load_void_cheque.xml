@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/reg"
+    android:background="#FFFFFF"
     tools:context=".pages.UpLoadVoidCheque">
 
     <LinearLayout
@@ -18,8 +18,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@drawable/upload"
-            tools:src="@drawable/upload" />
+            app:srcCompat="@drawable/upload" />
 
         <EditText
             android:id="@+id/etUploadName"
@@ -30,8 +29,10 @@
             android:id="@+id/bUploadImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
-            android:text="Upload Image" />
+            android:backgroundTint="#FF474B"
+            android:text="Upload Image"
+            android:onClick="onClick"
+            android:textColor="#FFFFFF" />
 
 
     </LinearLayout>

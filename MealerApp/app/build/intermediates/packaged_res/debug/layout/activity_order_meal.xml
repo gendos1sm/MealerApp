@@ -14,15 +14,12 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/imageComplaint"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center_horizontal"
-            android:background="#FFFFFF"
-            app:srcCompat="@drawable/cookhat"
-            tools:src="@drawable/cookhat" />
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            app:srcCompat="@drawable/food_search" />
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -35,14 +32,14 @@
             android:hint="Search for a meal..."
             android:textColor="@color/black"
             android:textSize="20dp" />
+
         <Button
             android:id="@+id/searchNow"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
+            android:backgroundTint="#FF474B"
             android:onClick="searchForMeal"
-            android:text="🔍"
-            />
+            android:text="🔍" />
     </LinearLayout>
 
         <TextView
@@ -62,26 +59,29 @@
                 android:id="@+id/go_left"
                 android:layout_width="183dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="clickGoLeft"
-                android:text="Previous Page" />
+                android:text="Previous Page"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/go_right"
                 android:layout_width="178dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#8C3D5B"
+                android:backgroundTint="#FF474B"
                 android:onClick="clickGoRight"
-                android:text="Next Page" />
+                android:text="Next Page"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
 
         <Button
             android:id="@+id/Order"
-            android:layout_width="match_parent"
+            android:layout_width="360dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8C3D5B"
+            android:backgroundTint="#FF474B"
             android:onClick="order"
-            android:text="Order this meal!" />
+            android:text="Order this meal!"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 

@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -32,6 +34,9 @@ public class UpLoadVoidCheque extends Activity implements View.OnClickListener{
         // Text to upload image name
         uploadImageName = (EditText) findViewById(R.id.etUploadName);
         imageToUpload.setOnClickListener(this);
+
+        Bitmap bImage = BitmapFactory.decodeResource(this.getResources(), R.drawable.upload);
+        imageToUpload.setImageBitmap(bImage);
 
 
     }

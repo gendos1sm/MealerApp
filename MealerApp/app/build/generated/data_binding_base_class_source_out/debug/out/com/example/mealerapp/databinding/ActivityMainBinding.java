@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,7 +32,19 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnRegCook;
 
   @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
   public final TextView loginError;
+
+  @NonNull
+  public final TextView loginError3;
 
   @NonNull
   public final TextInputEditText loginPassword;
@@ -40,20 +53,25 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextInputEditText loginUsername;
 
   @NonNull
-  public final TextView textView;
+  public final TextView textView2;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
-      @NonNull Button btnRegClient, @NonNull Button btnRegCook, @NonNull TextView loginError,
-      @NonNull TextInputEditText loginPassword, @NonNull TextInputEditText loginUsername,
-      @NonNull TextView textView) {
+      @NonNull Button btnRegClient, @NonNull Button btnRegCook, @NonNull ImageView imageView,
+      @NonNull ImageView imageView2, @NonNull ImageView imageView4, @NonNull TextView loginError,
+      @NonNull TextView loginError3, @NonNull TextInputEditText loginPassword,
+      @NonNull TextInputEditText loginUsername, @NonNull TextView textView2) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnRegClient = btnRegClient;
     this.btnRegCook = btnRegCook;
+    this.imageView = imageView;
+    this.imageView2 = imageView2;
+    this.imageView4 = imageView4;
     this.loginError = loginError;
+    this.loginError3 = loginError3;
     this.loginPassword = loginPassword;
     this.loginUsername = loginUsername;
-    this.textView = textView;
+    this.textView2 = textView2;
   }
 
   @Override
@@ -101,9 +119,33 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
+        break missingId;
+      }
+
       id = R.id.login_error;
       TextView loginError = ViewBindings.findChildViewById(rootView, id);
       if (loginError == null) {
+        break missingId;
+      }
+
+      id = R.id.login_error3;
+      TextView loginError3 = ViewBindings.findChildViewById(rootView, id);
+      if (loginError3 == null) {
         break missingId;
       }
 
@@ -119,14 +161,15 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
         break missingId;
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, btnLogin, btnRegClient,
-          btnRegCook, loginError, loginPassword, loginUsername, textView);
+          btnRegCook, imageView, imageView2, imageView4, loginError, loginError3, loginPassword,
+          loginUsername, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
