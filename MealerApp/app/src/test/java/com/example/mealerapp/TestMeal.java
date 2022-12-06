@@ -24,7 +24,7 @@ public class TestMeal {
         //double expected = 125.50;
         //double result = instance.getPrice();
         //noinspection deprecation
-        assertTrue(instance.getOnMealList());
+        assertTrue(instance.getIsOnMealList());
     }
 
     @Test
