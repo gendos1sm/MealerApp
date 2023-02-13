@@ -1,5 +1,4 @@
-# SEG2105_Deliverable_04
-Final Deliverable of SEG project
+App that connects cooks and clients to allow clients order home-cooked meals from cooks.
 
 Admin:
 
@@ -8,9 +7,8 @@ Password: 1
 
 Team Members:
 
-Iaroslav Volkov (Virtual Section) (300235591)
-Deniz Jasarbasic (3002293939)
-Matteo Torlone (300248556)
-Evgeny Smirnov (8725686)
+Iaroslav Volkov
+Deniz Jasarbasic
+Matteo Torlone
+Evgeny Smirnov
 
-Link to repository: https://github.com/SEG2105-Fall2022/SEG2105_Deliverable_04
